@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(208, 208, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+.card{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+@font-face {
+    font-family: digital;
+    src: url('digital-7.ttf');
+}
+h1{
+    font-size: 100px;
+    font-family: digital;
+    width: 117.133px;
+}
+h6{
+    font-size: 30px;
+    font-family: digital;
+    width: 29.6px;
+}
+.btn{
+    font-size: 20px;
+    margin-right: 8px;
+    padding: 5px 9px;
+    border-radius: 8px;
+}
+.start{
+    background-color: green;
+}
+.stop{
+    background-color: red;
+    display: none;
+}
+.resume{
+    background-color: rgb(50, 197, 255);
+    display: none;
+}
+.end{
+    background-color: black;
+    color: white;
+    display: none;
+}
+.btn:hover{
+    opacity: 0.8;
+}
